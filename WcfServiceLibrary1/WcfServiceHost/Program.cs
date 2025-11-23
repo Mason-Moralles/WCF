@@ -8,25 +8,32 @@ namespace WcfServiceHost
     {
         static void Main(string[] args)
         {
-            // Базовый адрес сервиса (можно заменить на свой порт/путь)
-            Uri baseAddress = new Uri("http://localhost:8733/Design_Time_Addresses/KT1/Service1/");
-
-            using (ServiceHost host = new ServiceHost(typeof(Service1), baseAddress))
+            using (ServiceHost host = new ServiceHost(typeof(Service1)))
             {
-                try
+                host.Open();
+
+                Console.WriteLine("Сервис запущен!");
+
+                // Выводим базовые адреса (baseAddresses)
+                foreach (var baseAddress in host.BaseAddresses)
                 {
-                    host.Open();
-                    Console.WriteLine("Сервис запущен.");
-                    Console.WriteLine("Адрес: " + baseAddress);
-                    Console.WriteLine("Нажмите Enter для остановки сервиса...");
-                    Console.ReadLine();
-                    host.Close();
+                    Console.WriteLine("Базовый адрес: " + baseAddress);
                 }
-                catch (Exception ex)
+
+                // Выводим все endpoints (адрес + контракт)
+                Console.WriteLine("\nEndpoints:");
+                foreach (var ep in host.Description.Endpoints)
                 {
-                    Console.WriteLine("Ошибка при запуске сервиса: " + ex.Message);
-                    Console.ReadLine();
+                    Console.WriteLine($" - {ep.Address.Uri} (contract: {ep.Contract.Name})");
                 }
+
+                Console.WriteLine("\nПерейдите в браузере по адресу:");
+                Console.WriteLine(host.BaseAddresses[0] + "?wsdl");
+
+                Console.WriteLine("\nНажмите Enter для остановки сервиса...");
+                Console.ReadLine();
+
+                host.Close();
             }
         }
     }

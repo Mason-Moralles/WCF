@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Oo]ut/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+package-lock.json
+
+# SQLite
+*.db
+
+# Rider/Resharper (если вдруг)
+.idea/
+_ReSharper*/
