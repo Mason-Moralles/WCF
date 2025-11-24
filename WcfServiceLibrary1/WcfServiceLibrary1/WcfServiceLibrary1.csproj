@@ -72,6 +72,12 @@
     <Compile Include="CP7\CustomMessageEncodingBindingElement.cs" />
     <Compile Include="CP7\CustomTcpBinding.cs" />
     <Compile Include="CP7\ICustomChannelService.cs" />
+    <Compile Include="CP8\IOrderService8.cs" />
+    <Compile Include="CP8\IOrderService8Async.cs" />
+    <Compile Include="CP8\OrderModels8.cs" />
+    <Compile Include="CP8\OrderService8.cs" />
+    <Compile Include="CP8\OrderService8Async.cs" />
+    <Compile Include="CP8\OrderStore8.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeService.cs" />
     <Compile Include="IEmployeeService.cs" />

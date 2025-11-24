@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityClient", "SecurityC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomChannelClient", "CustomChannelClient\CustomChannelClient.csproj", "{B1F42577-06ED-49C3-AA5E-061035CA8521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderRpcClient", "OrderRpcClient\OrderRpcClient.csproj", "{CA71AB40-2F04-4F89-98E7-EEC12E8C9749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B1F42577-06ED-49C3-AA5E-061035CA8521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F42577-06ED-49C3-AA5E-061035CA8521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1F42577-06ED-49C3-AA5E-061035CA8521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA71AB40-2F04-4F89-98E7-EEC12E8C9749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA71AB40-2F04-4F89-98E7-EEC12E8C9749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA71AB40-2F04-4F89-98E7-EEC12E8C9749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA71AB40-2F04-4F89-98E7-EEC12E8C9749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
