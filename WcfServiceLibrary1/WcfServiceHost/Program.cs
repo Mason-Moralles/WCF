@@ -16,17 +16,32 @@ namespace WcfServiceHost
             using (var customHost = new ServiceHost(typeof(CustomChannelService),
                    new Uri("net.tcp://localhost:9001/CustomChannelService")))
             // КТ8: новые хосты
-            using (var orderHost8 = new ServiceHost(
-                       typeof(OrderService8),
+            using (var orderHost8 = new ServiceHost(typeof(OrderService8),
                        new Uri("http://localhost:8760/OrderService8")))
-            using (var orderHost8Async = new ServiceHost(
-                       typeof(OrderService8Async),
+            using (var orderHost8Async = new ServiceHost(typeof(OrderService8Async),
                        new Uri("http://localhost:8760/OrderService8Async")))
+            // КТ 9
+            using (var libraryHost = new ServiceHost(typeof(LibraryService),
+            new Uri("http://localhost:8000/LibraryService")))
+
+            using (var asyncLibraryHost = new ServiceHost(typeof(AsyncLibraryService),
+                       new Uri("http://localhost:8000/AsyncLibraryService")))
             {
-                // КТ7: добавляем endpoint с CustomTcpBinding
+                // КТ7: endpoint с CustomTcpBinding
                 customHost.AddServiceEndpoint(
                     typeof(ICustomChannelService),
                     new CustomTcpBinding(),
+                    "");
+
+                // endpoints для библиотечного сервиса (КТ9)
+                libraryHost.AddServiceEndpoint(
+                    typeof(ILibraryService),
+                    new BasicHttpBinding(),
+                    "");
+
+                asyncLibraryHost.AddServiceEndpoint(
+                    typeof(IAsyncLibraryService),
+                    new BasicHttpBinding(),
                     "");
 
                 host.Open();
@@ -36,10 +51,22 @@ namespace WcfServiceHost
                 customHost.Open();
                 orderHost8.Open();
                 orderHost8Async.Open();
+                libraryHost.Open();
+                asyncLibraryHost.Open();
 
                 Console.WriteLine("=== Сервисы запущены ===");
 
-                foreach (var h in new[] { host, empHost, hostOrders, hostSecurity, customHost, orderHost8, orderHost8Async})
+                foreach (var h in new[] { 
+                    host,
+                    empHost,
+                    hostOrders,
+                    hostSecurity,
+                    customHost,
+                    orderHost8,
+                    orderHost8Async,
+                    libraryHost,
+                    asyncLibraryHost
+            })
                 {
                     foreach (var ba in h.BaseAddresses)
                         Console.WriteLine($"Базовый адрес: {ba}");
@@ -54,6 +81,8 @@ namespace WcfServiceHost
                 Console.WriteLine("Нажмите Enter для остановки...");
                 Console.ReadLine();
 
+                asyncLibraryHost.Close();
+                libraryHost.Close();
                 orderHost8Async.Close();
                 orderHost8.Close();
                 customHost.Close();

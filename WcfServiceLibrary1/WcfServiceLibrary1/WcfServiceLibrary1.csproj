@@ -78,6 +78,11 @@
     <Compile Include="CP8\OrderService8.cs" />
     <Compile Include="CP8\OrderService8Async.cs" />
     <Compile Include="CP8\OrderStore8.cs" />
+    <Compile Include="CP9\AsyncLibraryService.cs" />
+    <Compile Include="CP9\Book.cs" />
+    <Compile Include="CP9\IAsyncLibraryService.cs" />
+    <Compile Include="CP9\ILibraryService.cs" />
+    <Compile Include="CP9\LibraryService.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeService.cs" />
     <Compile Include="IEmployeeService.cs" />
