@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
-using WcfServiceLibrary1;
 using System.ServiceModel.Security;
+using WcfServiceLibrary1;
 
 namespace WcfServiceHost
 {
@@ -13,11 +13,20 @@ namespace WcfServiceHost
             using (var empHost = new ServiceHost(typeof(EmployeeService)))
             using (var hostOrders = new ServiceHost(typeof(OrderService)))
             using (var hostSecurity = new ServiceHost(typeof(SecurityService)))
+            using (var customHost = new ServiceHost(typeof(CustomChannelService),
+                   new Uri("net.tcp://localhost:9001/CustomChannelService")))
             {
+                // КТ7: добавляем endpoint с CustomTcpBinding
+                customHost.AddServiceEndpoint(
+                    typeof(ICustomChannelService),
+                    new CustomTcpBinding(),
+                    "");
+
                 host.Open();
                 empHost.Open();
                 hostOrders.Open();
                 hostSecurity.Open();
+                customHost.Open();
 
                 Console.WriteLine("=== Сервисы запущены ===");
 
@@ -36,6 +45,7 @@ namespace WcfServiceHost
                 Console.WriteLine("Нажмите Enter для остановки...");
                 Console.ReadLine();
 
+                customHost.Close();
                 hostSecurity.Close();
                 hostOrders.Close();
                 empHost.Close();

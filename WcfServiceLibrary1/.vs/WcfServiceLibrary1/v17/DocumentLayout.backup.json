@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|solutionrelative:wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F42577-06ED-49C3-AA5E-061035CA8521}|CustomChannelClient\\CustomChannelClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\customchannelclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F42577-06ED-49C3-AA5E-061035CA8521}|CustomChannelClient\\CustomChannelClient.csproj|solutionrelative:customchannelclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\cp7\\custommessageencodingbindingelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\cp7\\custommessageencodingbindingelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\cp7\\custommessageencoderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\cp7\\custommessageencoderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\cp7\\customtcpbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\cp7\\customtcpbinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\cp7\\icustomchannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\cp7\\icustomchannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\cp7\\custommessageencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\cp7\\custommessageencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\cp7\\customchannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\cp7\\customchannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\securityclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|solutionrelative:securityclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\securityclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|solutionrelative:securityclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\securityclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|solutionrelative:securityclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\securityclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|solutionrelative:securityclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\securityclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{979D6D6A-E00B-4197-81DC-D925BE9F50BC}|SecurityClient\\SecurityClient.csproj|solutionrelative:securityclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|solutionrelative:wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,19 +83,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CustomMessageEncoderFactory.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomMessageEncoderFactory.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\CP7\\CustomMessageEncoderFactory.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomMessageEncoderFactory.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\CP7\\CustomMessageEncoderFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:57:37.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\CustomChannelClient\\Program.cs",
+              "RelativeDocumentMoniker": "CustomChannelClient\\Program.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\CustomChannelClient\\Program.cs",
+              "RelativeToolTip": "CustomChannelClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:38:41.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomTcpBinding.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomTcpBinding.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\CP7\\CustomTcpBinding.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomTcpBinding.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\CP7\\CustomTcpBinding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:35:57.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomMessageEncodingBindingElement.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomMessageEncodingBindingElement.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\CP7\\CustomMessageEncodingBindingElement.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomMessageEncodingBindingElement.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\CP7\\CustomMessageEncodingBindingElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:35:33.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomMessageEncoder.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomMessageEncoder.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\CP7\\CustomMessageEncoder.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomMessageEncoder.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\CP7\\CustomMessageEncoder.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:34:43.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomChannelService.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomChannelService.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\CP7\\CustomChannelService.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\CustomChannelService.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\CP7\\CustomChannelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:33:58.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomChannelService.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\ICustomChannelService.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\CP7\\ICustomChannelService.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\CP7\\ICustomChannelService.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\CP7\\ICustomChannelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:32:26.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\Program.cs",
+              "RelativeDocumentMoniker": "WcfServiceHost\\Program.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\Program.cs",
+              "RelativeToolTip": "WcfServiceHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:06:44.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "App.config",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\SecurityClient\\App.config",
               "RelativeDocumentMoniker": "SecurityClient\\App.config",
               "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\SecurityClient\\App.config",
               "RelativeToolTip": "SecurityClient\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-11-24T09:28:35.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\SecurityClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SecurityClient\\MainWindow.xaml.cs",
@@ -80,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\SecurityClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SecurityClient\\MainWindow.xaml",
@@ -92,20 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\Program.cs",
-              "RelativeDocumentMoniker": "WcfServiceHost\\Program.cs",
-              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\Program.cs",
-              "RelativeToolTip": "WcfServiceHost\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T08:06:44.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "SimpleUserValidator.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\SimpleUserValidator.cs",
               "RelativeDocumentMoniker": "WcfServiceHost\\SimpleUserValidator.cs",
@@ -118,20 +237,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "SecurityService.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\SecurityService.cs",
               "RelativeDocumentMoniker": "WcfServiceLibrary1\\SecurityService.cs",
               "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\SecurityService.cs",
               "RelativeToolTip": "WcfServiceLibrary1\\SecurityService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T08:04:57.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ISecurityService.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\ISecurityService.cs",
               "RelativeDocumentMoniker": "WcfServiceLibrary1\\ISecurityService.cs",

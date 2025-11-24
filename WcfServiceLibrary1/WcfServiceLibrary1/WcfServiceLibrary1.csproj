@@ -66,6 +66,12 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CP7\CustomChannelService.cs" />
+    <Compile Include="CP7\CustomMessageEncoder.cs" />
+    <Compile Include="CP7\CustomMessageEncoderFactory.cs" />
+    <Compile Include="CP7\CustomMessageEncodingBindingElement.cs" />
+    <Compile Include="CP7\CustomTcpBinding.cs" />
+    <Compile Include="CP7\ICustomChannelService.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeService.cs" />
     <Compile Include="IEmployeeService.cs" />
