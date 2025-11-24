@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderRpcClient", "OrderRpcC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryClient9", "LibraryClient9\LibraryClient9.csproj", "{2DCB89F6-4853-4B2C-A62E-3AD4960767B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureClient10", "SecureClient10\SecureClient10.csproj", "{15D0D6A6-4B2E-4967-BE77-95EB12A39060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2DCB89F6-4853-4B2C-A62E-3AD4960767B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DCB89F6-4853-4B2C-A62E-3AD4960767B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DCB89F6-4853-4B2C-A62E-3AD4960767B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D0D6A6-4B2E-4967-BE77-95EB12A39060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D0D6A6-4B2E-4967-BE77-95EB12A39060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D0D6A6-4B2E-4967-BE77-95EB12A39060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D0D6A6-4B2E-4967-BE77-95EB12A39060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

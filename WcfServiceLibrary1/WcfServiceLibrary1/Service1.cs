@@ -12,7 +12,6 @@ namespace WcfServiceLibrary1
 
         public Service1()
         {
-            // База лежит рядом с exe хоста
             _dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "users.db");
             _connectionString = $"Data Source={_dbPath};Version=3;";
 
@@ -79,7 +78,6 @@ namespace WcfServiceLibrary1
                 {
                     connection.Open();
 
-                    // 1. создаём таблицу
                     string createTableSql = @"
                         CREATE TABLE Users (
                             Id       INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -93,7 +91,6 @@ namespace WcfServiceLibrary1
                         cmd.ExecuteNonQuery();
                     }
 
-                    // 2. добавляем две записи, как требовалось в ТЗ
                     string insertSql = @"
                         INSERT INTO Users (Email, Password) VALUES ('user1@example.com', 'pass1');
                         INSERT INTO Users (Email, Password) VALUES ('user2@example.com', 'pass2');

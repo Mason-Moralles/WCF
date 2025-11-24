@@ -26,6 +26,9 @@ namespace WcfServiceHost
 
             using (var asyncLibraryHost = new ServiceHost(typeof(AsyncLibraryService),
                        new Uri("http://localhost:8000/AsyncLibraryService")))
+            //КТ10
+            using (var secureHost = new ServiceHost(typeof(SecureService),
+                        new Uri("http://localhost:8780/SecureService")))
             {
                 // КТ7: endpoint с CustomTcpBinding
                 customHost.AddServiceEndpoint(
@@ -43,7 +46,21 @@ namespace WcfServiceHost
                     typeof(IAsyncLibraryService),
                     new BasicHttpBinding(),
                     "");
+                secureHost.AddServiceEndpoint(
+                    typeof(ISecureService),
+                    new WSHttpBinding(SecurityMode.Message)
+                    {
+                        Security =
+                        {
+                            Message =
+                            {
+                                ClientCredentialType = MessageCredentialType.Windows
+                            }
+                        }
+                    },
+                    "");
 
+                secureHost.Open();
                 host.Open();
                 empHost.Open();
                 hostOrders.Open();
@@ -65,7 +82,8 @@ namespace WcfServiceHost
                     orderHost8,
                     orderHost8Async,
                     libraryHost,
-                    asyncLibraryHost
+                    asyncLibraryHost,
+                    secureHost
             })
                 {
                     foreach (var ba in h.BaseAddresses)
@@ -81,6 +99,7 @@ namespace WcfServiceHost
                 Console.WriteLine("Нажмите Enter для остановки...");
                 Console.ReadLine();
 
+                secureHost.Close();
                 asyncLibraryHost.Close();
                 libraryHost.Close();
                 orderHost8Async.Close();

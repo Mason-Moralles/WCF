@@ -66,6 +66,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CP10\ISecureService.cs" />
+    <Compile Include="CP10\SecureService.cs" />
     <Compile Include="CP7\CustomChannelService.cs" />
     <Compile Include="CP7\CustomMessageEncoder.cs" />
     <Compile Include="CP7\CustomMessageEncoderFactory.cs" />
