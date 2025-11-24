@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
-using WcfServiceLibrary1; // наш сервис из библиотеки
+using WcfServiceLibrary1;
 
 namespace WcfServiceHost
 {
@@ -10,13 +10,15 @@ namespace WcfServiceHost
         {
             using (ServiceHost host = new ServiceHost(typeof(Service1)))
             using (ServiceHost empHost = new ServiceHost(typeof(EmployeeService)))
+            using (var hostOrders = new ServiceHost(typeof(OrderService)))
             {
                 host.Open();
                 empHost.Open();
+                hostOrders.Open();
 
                 Console.WriteLine("=== Сервисы запущены ===");
 
-                foreach (var h in new[] { host, empHost })
+                foreach (var h in new[] { host, empHost, hostOrders})
                 {
                     foreach (var ba in h.BaseAddresses)
                         Console.WriteLine($"Базовый адрес: {ba}");
@@ -31,6 +33,7 @@ namespace WcfServiceHost
                 Console.WriteLine("Нажмите Enter для остановки...");
                 Console.ReadLine();
 
+                hostOrders.Close();
                 empHost.Close();
                 host.Close();
             }
