@@ -9,30 +9,29 @@ namespace WcfServiceHost
         static void Main(string[] args)
         {
             using (ServiceHost host = new ServiceHost(typeof(Service1)))
+            using (ServiceHost empHost = new ServiceHost(typeof(EmployeeService)))
             {
                 host.Open();
+                empHost.Open();
 
-                Console.WriteLine("Сервис запущен!");
+                Console.WriteLine("=== Сервисы запущены ===");
 
-                // Выводим базовые адреса (baseAddresses)
-                foreach (var baseAddress in host.BaseAddresses)
+                foreach (var h in new[] { host, empHost })
                 {
-                    Console.WriteLine("Базовый адрес: " + baseAddress);
+                    foreach (var ba in h.BaseAddresses)
+                        Console.WriteLine($"Базовый адрес: {ba}");
+
+                    Console.WriteLine("Endpoints:");
+                    foreach (var ep in h.Description.Endpoints)
+                        Console.WriteLine($" - {ep.Address.Uri} ({ep.Contract.Name})");
+
+                    Console.WriteLine();
                 }
 
-                // Выводим все endpoints (адрес + контракт)
-                Console.WriteLine("\nEndpoints:");
-                foreach (var ep in host.Description.Endpoints)
-                {
-                    Console.WriteLine($" - {ep.Address.Uri} (contract: {ep.Contract.Name})");
-                }
-
-                Console.WriteLine("\nПерейдите в браузере по адресу:");
-                Console.WriteLine(host.BaseAddresses[0] + "?wsdl");
-
-                Console.WriteLine("\nНажмите Enter для остановки сервиса...");
+                Console.WriteLine("Нажмите Enter для остановки...");
                 Console.ReadLine();
 
+                empHost.Close();
                 host.Close();
             }
         }

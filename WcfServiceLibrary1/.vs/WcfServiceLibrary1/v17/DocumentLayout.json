@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9266AFC-B816-4BE9-8CA5-8E7B47A925A2}|EmployeeClient\\EmployeeClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\employeeclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9266AFC-B816-4BE9-8CA5-8E7B47A925A2}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|solutionrelative:wcfservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|solutionrelative:wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|solutionrelative:wcfclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfservicelibrary1\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|solutionrelative:wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|d:\\2_semester\\wcf\\wcfservicelibrary1\\wcfservicelibrary1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfservicelibrary1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfservicelibrary1\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfservicelibrary1\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A68CFFF-3820-4DCE-AF4B-873E0AC263E5}|WcfServiceLibrary1\\WcfServiceLibrary1.csproj|solutionrelative:wcfservicelibrary1\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|solutionrelative:wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|solutionrelative:wcfclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9024417-9D21-495E-A766-332D45D0624C}|WcfClient\\WcfClient.csproj|solutionrelative:wcfclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C66193CD-527B-4E29-A694-226E4863557D}|WcfServiceHost\\WcfServiceHost.csproj|D:\\2_Semester\\WCF\\WcfServiceLibrary1\\wcfservicehost\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +74,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\EmployeeService.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\EmployeeService.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:04:46.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\IEmployeeService.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\IEmployeeService.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:04:11.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\Employee.cs",
+              "RelativeDocumentMoniker": "WcfServiceLibrary1\\Employee.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\Employee.cs",
+              "RelativeToolTip": "WcfServiceLibrary1\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:03:32.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\EmployeeClient\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Program.cs",
+              "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\EmployeeClient\\Program.cs",
+              "RelativeToolTip": "EmployeeClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:01:19.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfClient\\Form1.cs",
               "RelativeDocumentMoniker": "WcfClient\\Form1.cs",
@@ -66,12 +134,11 @@
               "RelativeToolTip": "WcfClient\\Form1.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAASwCIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:42:15.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:42:15.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfClient\\Program.cs",
               "RelativeDocumentMoniker": "WcfClient\\Program.cs",
@@ -79,24 +146,22 @@
               "RelativeToolTip": "WcfClient\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:21:51.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:21:51.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfClient\\Form1.cs",
               "RelativeDocumentMoniker": "WcfClient\\Form1.cs",
               "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfClient\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WcfClient\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:20:36.767Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-11-23T21:20:36.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\UserDto.cs",
               "RelativeDocumentMoniker": "WcfServiceLibrary1\\UserDto.cs",
@@ -109,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "App.config",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\App.config",
               "RelativeDocumentMoniker": "WcfServiceHost\\App.config",
@@ -117,31 +182,30 @@
               "RelativeToolTip": "WcfServiceHost\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-23T15:56:26.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T15:56:26.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\Program.cs",
               "RelativeDocumentMoniker": "WcfServiceHost\\Program.cs",
               "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceHost\\Program.cs",
               "RelativeToolTip": "WcfServiceHost\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T15:55:30.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Service1.cs",
               "DocumentMoniker": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\Service1.cs",
               "RelativeDocumentMoniker": "WcfServiceLibrary1\\Service1.cs",
               "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\Service1.cs",
               "RelativeToolTip": "WcfServiceLibrary1\\Service1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T15:54:12.738Z",
               "EditorCaption": ""
@@ -154,7 +218,7 @@
               "RelativeDocumentMoniker": "WcfServiceLibrary1\\IService1.cs",
               "ToolTip": "D:\\2_Semester\\WCF\\WcfServiceLibrary1\\WcfServiceLibrary1\\IService1.cs",
               "RelativeToolTip": "WcfServiceLibrary1\\IService1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T12:26:27.791Z",
               "EditorCaption": ""
