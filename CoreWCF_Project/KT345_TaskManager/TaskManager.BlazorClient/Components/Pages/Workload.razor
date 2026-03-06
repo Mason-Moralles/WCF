@@ -1,0 +1,66 @@
+@page "/workload"
+@rendermode InteractiveServer
+@inject TaskManager.BlazorClient.Services.TaskServiceClient Client
+
+<PageTitle>Workload Report</PageTitle>
+
+<h3>Workload Report</h3>
+
+@if (!Client.IsAuthenticated)
+{
+    <div class="alert alert-warning">Please <a href="/">login</a> first.</div>
+    return;
+}
+
+@if (_error != null)
+{
+    <div class="alert alert-danger">@_error</div>
+}
+
+<div class="mb-3">
+    <label>User ID:</label>
+    <input type="number" class="form-control d-inline-block" style="width:100px" @bind="_userId" />
+    <button class="btn btn-primary ms-2" @onclick="LoadReport">Get Report</button>
+</div>
+
+@if (_report != null)
+{
+    <div class="card" style="max-width: 500px;">
+        <div class="card-body">
+            <h5>@_report.UserName</h5>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between">
+                    Total Tasks <span class="badge bg-primary rounded-pill">@_report.TotalTasks</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Completed <span class="badge bg-success rounded-pill">@_report.CompletedTasks</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    In Progress <span class="badge bg-info rounded-pill">@_report.InProgressTasks</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Overdue <span class="badge bg-danger rounded-pill">@_report.OverdueTasks</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+}
+
+@code {
+    private TaskManager.Core.Models.WorkloadReport? _report;
+    private string? _error;
+    private int _userId = 2;
+
+    private async Task LoadReport()
+    {
+        try
+        {
+            _error = null;
+            _report = await Client.GetWorkloadAsync(_userId);
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+}

@@ -1,0 +1,191 @@
+@page "/tasks"
+@rendermode InteractiveServer
+@inject TaskManager.BlazorClient.Services.TaskServiceClient Client
+
+<PageTitle>Tasks</PageTitle>
+
+<h3>Tasks</h3>
+
+@if (!Client.IsAuthenticated)
+{
+    <div class="alert alert-warning">Please <a href="/">login</a> first.</div>
+    return;
+}
+
+@if (_error != null)
+{
+    <div class="alert alert-danger">@_error</div>
+}
+
+<!-- Create Task Form -->
+<div class="card mb-3">
+    <div class="card-body">
+        <h5>Create Task</h5>
+        <div class="row g-2">
+            <div class="col-md-4">
+                <input class="form-control" placeholder="Title" @bind="_newTitle" />
+            </div>
+            <div class="col-md-3">
+                <input class="form-control" placeholder="Description" @bind="_newDesc" />
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" @bind="_newPriority">
+                    <option value="0">Low</option>
+                    <option value="1">Medium</option>
+                    <option value="2">High</option>
+                    <option value="3">Critical</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <input type="number" class="form-control" placeholder="ProjID" @bind="_newProjectId" />
+            </div>
+            <div class="col-md-1">
+                <input type="number" class="form-control" placeholder="UserID" @bind="_newAssigneeId" />
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-primary" @onclick="CreateTask">Add</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Filter -->
+<div class="mb-3">
+    <label>Filter by project ID:</label>
+    <input type="number" class="form-control d-inline-block" style="width:100px" @bind="_filterProjectId" />
+    <button class="btn btn-outline-secondary ms-2" @onclick="LoadTasks">Load</button>
+</div>
+
+<!-- Task List -->
+@if (_tasks == null)
+{
+    <p>Click "Load" to fetch tasks.</p>
+}
+else if (_tasks.Count == 0)
+{
+    <p>No tasks found.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Assignee</th>
+                <th>Due Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in _tasks)
+            {
+                <tr>
+                    <td>@task.Id</td>
+                    <td>@task.Title</td>
+                    <td>
+                        <span class="badge @GetPriorityBadge(task.Priority)">@task.Priority</span>
+                    </td>
+                    <td>@task.Status</td>
+                    <td>@task.AssigneeId</td>
+                    <td>@(task.DueDate?.ToString("yyyy-MM-dd") ?? "-")</td>
+                    <td>
+                        <select class="form-select form-select-sm d-inline-block" style="width:130px"
+                                @onchange="e => ChangeStatus(task.Id, e)">
+                            <option value="">Change...</option>
+                            <option value="0">New</option>
+                            <option value="1">InProgress</option>
+                            <option value="2">Done</option>
+                            <option value="3">Cancelled</option>
+                        </select>
+                        @if (Client.Role == "Admin")
+                        {
+                            <button class="btn btn-sm btn-outline-danger ms-1" @onclick="() => DeleteTask(task.Id)">X</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<TaskManager.Core.Models.TaskItem>? _tasks;
+    private string? _error;
+    private int _filterProjectId = 1;
+    private string _newTitle = "";
+    private string _newDesc = "";
+    private int _newPriority = 1;
+    private int _newProjectId = 1;
+    private int _newAssigneeId = 2;
+
+    private async Task LoadTasks()
+    {
+        try
+        {
+            _error = null;
+            _tasks = await Client.GetTasksByProjectAsync(_filterProjectId);
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+
+    private async Task CreateTask()
+    {
+        try
+        {
+            _error = null;
+            await Client.CreateTaskAsync(_newTitle, _newDesc,
+                (TaskManager.Core.Enums.TaskPriority)_newPriority, _newProjectId, _newAssigneeId, null);
+            _newTitle = "";
+            _newDesc = "";
+            await LoadTasks();
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+
+    private async Task ChangeStatus(int taskId, ChangeEventArgs e)
+    {
+        if (string.IsNullOrEmpty(e.Value?.ToString())) return;
+        try
+        {
+            _error = null;
+            var status = (TaskManager.Core.Enums.TaskItemStatus)int.Parse(e.Value.ToString()!);
+            await Client.UpdateTaskStatusAsync(taskId, status);
+            await LoadTasks();
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+
+    private async Task DeleteTask(int taskId)
+    {
+        try
+        {
+            _error = null;
+            await Client.DeleteTaskAsync(taskId);
+            await LoadTasks();
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+
+    private string GetPriorityBadge(TaskManager.Core.Enums.TaskPriority p) => p switch
+    {
+        TaskManager.Core.Enums.TaskPriority.Critical => "bg-danger",
+        TaskManager.Core.Enums.TaskPriority.High => "bg-warning text-dark",
+        TaskManager.Core.Enums.TaskPriority.Medium => "bg-info",
+        _ => "bg-secondary"
+    };
+}

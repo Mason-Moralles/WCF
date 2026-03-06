@@ -1,0 +1,70 @@
+@page "/"
+@rendermode InteractiveServer
+@inject TaskManager.BlazorClient.Services.TaskServiceClient Client
+
+<PageTitle>Task Manager - Login</PageTitle>
+
+<h3>Task Manager</h3>
+
+@if (Client.IsAuthenticated)
+{
+    <div class="alert alert-success">
+        Logged in as <strong>@Client.Username</strong> (Role: @Client.Role)
+        <button class="btn btn-sm btn-outline-danger ms-3" @onclick="Logout">Logout</button>
+    </div>
+
+    <p>Use the navigation menu to manage tasks and projects.</p>
+}
+else
+{
+    <div class="card" style="max-width: 400px;">
+        <div class="card-body">
+            <h5 class="card-title">Login</h5>
+
+            @if (!string.IsNullOrEmpty(_message))
+            {
+                <div class="alert @(_success ? "alert-success" : "alert-danger")">@_message</div>
+            }
+
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" class="form-control" @bind="_username" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" @bind="_password" />
+            </div>
+            <button class="btn btn-primary" @onclick="Login" disabled="@_loading">
+                @(_loading ? "Logging in..." : "Login")
+            </button>
+
+            <hr />
+            <small class="text-muted">
+                Test users: admin/pass123, dev1/pass123, dev2/pass123
+            </small>
+        </div>
+    </div>
+}
+
+@code {
+    private string _username = "";
+    private string _password = "";
+    private string? _message;
+    private bool _success;
+    private bool _loading;
+
+    private async Task Login()
+    {
+        _loading = true;
+        var (success, message) = await Client.LoginAsync(_username, _password);
+        _success = success;
+        _message = message;
+        _loading = false;
+    }
+
+    private void Logout()
+    {
+        Client.Logout();
+        _message = null;
+    }
+}

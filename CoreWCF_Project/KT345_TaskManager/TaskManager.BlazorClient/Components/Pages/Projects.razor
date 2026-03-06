@@ -1,0 +1,106 @@
+@page "/projects"
+@rendermode InteractiveServer
+@inject TaskManager.BlazorClient.Services.TaskServiceClient Client
+
+<PageTitle>Projects</PageTitle>
+
+<h3>Projects</h3>
+
+@if (!Client.IsAuthenticated)
+{
+    <div class="alert alert-warning">Please <a href="/">login</a> first.</div>
+    return;
+}
+
+@if (_error != null)
+{
+    <div class="alert alert-danger">@_error</div>
+}
+
+@if (Client.Role == "Admin")
+{
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5>Create Project</h5>
+            <div class="row g-2">
+                <div class="col-md-4">
+                    <input class="form-control" placeholder="Name" @bind="_newName" />
+                </div>
+                <div class="col-md-5">
+                    <input class="form-control" placeholder="Description" @bind="_newDesc" />
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary" @onclick="CreateProject">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<button class="btn btn-outline-secondary mb-3" @onclick="LoadProjects">Refresh</button>
+
+@if (_projects == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr><th>ID</th><th>Name</th><th>Description</th><th>Created</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var p in _projects)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Name</td>
+                    <td>@p.Description</td>
+                    <td>@p.CreatedAt.ToString("yyyy-MM-dd")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<TaskManager.Core.Models.Project>? _projects;
+    private string? _error;
+    private string _newName = "";
+    private string _newDesc = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Client.IsAuthenticated)
+            await LoadProjects();
+    }
+
+    private async Task LoadProjects()
+    {
+        try
+        {
+            _error = null;
+            _projects = await Client.GetProjectsAsync();
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+
+    private async Task CreateProject()
+    {
+        try
+        {
+            _error = null;
+            await Client.CreateProjectAsync(_newName, _newDesc);
+            _newName = "";
+            _newDesc = "";
+            await LoadProjects();
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+    }
+}

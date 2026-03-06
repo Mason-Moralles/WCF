@@ -1,0 +1,83 @@
+2026-03-04 14:22:44.741 +03:00 [INF] Saved 8 entities to in-memory store.
+2026-03-04 14:22:45.032 +03:00 [INF] User profile is available. Using 'C:\Users\Георгий\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 14:22:45.083 +03:00 [WRN] Overriding address(es) 'http://localhost:5066'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-03-04 14:22:45.756 +03:00 [INF] Mapping CoreWCF branch app for path /TaskService/basic
+2026-03-04 14:22:45.767 +03:00 [INF] Configuring metadata to /TaskService/basic
+2026-03-04 14:22:45.768 +03:00 [INF] Now listening on: http://localhost:5020
+2026-03-04 14:22:45.769 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 14:22:45.770 +03:00 [INF] Hosting environment: Development
+2026-03-04 14:22:45.771 +03:00 [INF] Content root path: D:\2_Semester\WCF\.claude\worktrees\youthful-keller\CoreWCF_Project\KT345_TaskManager\TaskManager.API
+2026-03-04 14:23:08.408 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/ - null null
+2026-03-04 14:23:08.437 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/ - 404 0 null 29.9673ms
+2026-03-04 14:23:08.446 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5020/, Response status code: 404
+2026-03-04 14:23:21.247 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/ - null null
+2026-03-04 14:23:21.250 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/ - 404 0 null 3.5981ms
+2026-03-04 14:23:21.256 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5020/, Response status code: 404
+2026-03-04 14:23:52.509 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/ - null null
+2026-03-04 14:23:52.512 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/ - 404 0 null 2.981ms
+2026-03-04 14:23:52.515 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5020/, Response status code: 404
+2026-03-04 14:23:54.226 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/ - null null
+2026-03-04 14:23:54.228 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/ - 404 0 null 2.4469ms
+2026-03-04 14:23:54.231 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5020/, Response status code: 404
+2026-03-04 14:24:04.172 +03:00 [INF] Application is shutting down...
+2026-03-04 14:24:42.499 +03:00 [INF] Saved 8 entities to in-memory store.
+2026-03-04 14:24:42.590 +03:00 [INF] User profile is available. Using 'C:\Users\Георгий\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 14:24:42.642 +03:00 [WRN] Overriding address(es) 'http://localhost:5066'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-03-04 14:24:42.772 +03:00 [INF] Mapping CoreWCF branch app for path /TaskService/basic
+2026-03-04 14:24:42.781 +03:00 [INF] Configuring metadata to /TaskService/basic
+2026-03-04 14:24:42.783 +03:00 [INF] Now listening on: http://localhost:5020
+2026-03-04 14:24:42.784 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 14:24:42.784 +03:00 [INF] Hosting environment: Development
+2026-03-04 14:24:42.785 +03:00 [INF] Content root path: D:\2_Semester\WCF\.claude\worktrees\youthful-keller\CoreWCF_Project\KT345_TaskManager\TaskManager.API
+2026-03-04 14:25:05.043 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 205
+2026-03-04 14:25:05.142 +03:00 [INF] Auth attempt: admin
+2026-03-04 14:25:05.866 +03:00 [INF] User admin authenticated, role=Admin
+2026-03-04 14:25:05.894 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 714 text/xml; charset=utf-8 851.8868ms
+2026-03-04 14:25:05.922 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 204
+2026-03-04 14:25:05.926 +03:00 [INF] Auth attempt: dev1
+2026-03-04 14:25:05.952 +03:00 [INF] User dev1 authenticated, role=Developer
+2026-03-04 14:25:05.954 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 722 text/xml; charset=utf-8 31.773ms
+2026-03-04 14:25:05.957 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 462
+2026-03-04 14:25:05.994 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 734 text/xml; charset=utf-8 37.672ms
+2026-03-04 14:25:06.004 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 527
+2026-03-04 14:25:06.009 +03:00 [INF] Admin admin creating project 'Backend API'
+2026-03-04 14:25:06.030 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-04 14:25:06.033 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 510 text/xml; charset=utf-8 29.4126ms
+2026-03-04 14:25:06.036 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 508
+2026-03-04 14:25:06.043 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 500 224 text/xml; charset=utf-8 6.7769ms
+2026-03-04 14:25:06.055 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 655
+2026-03-04 14:25:06.060 +03:00 [INF] User dev1 creating task 'Implement login' in project 1
+2026-03-04 14:25:06.189 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-04 14:25:06.197 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 644 text/xml; charset=utf-8 141.9393ms
+2026-03-04 14:25:06.206 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 492
+2026-03-04 14:25:06.218 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 1378 text/xml; charset=utf-8 12.7639ms
+2026-03-04 14:25:06.222 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 511
+2026-03-04 14:25:06.227 +03:00 [INF] User dev1 updating task 4 status to "InProgress"
+2026-03-04 14:25:06.235 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-04 14:25:06.236 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 228 text/xml; charset=utf-8 14.6483ms
+2026-03-04 14:25:06.239 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 466
+2026-03-04 14:25:06.244 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 639 text/xml; charset=utf-8 5.1404ms
+2026-03-04 14:25:06.247 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 488
+2026-03-04 14:25:06.254 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 1361 text/xml; charset=utf-8 7.387ms
+2026-03-04 14:25:06.258 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 482
+2026-03-04 14:25:06.263 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 548 text/xml; charset=utf-8 5.5712ms
+2026-03-04 14:25:06.268 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5020/TaskService/basic - text/xml; charset=utf-8 468
+2026-03-04 14:25:06.272 +03:00 [WRN] Admin admin deleting task 4
+2026-03-04 14:25:06.279 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-04 14:25:06.284 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5020/TaskService/basic - 200 204 text/xml; charset=utf-8 15.2889ms
+2026-03-04 14:25:40.989 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/TaskService/basic - null null
+2026-03-04 14:25:41.329 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/TaskService/basic - 200 null text/html; charset=UTF-8 340.3457ms
+2026-03-04 14:25:41.485 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/favicon.ico - null null
+2026-03-04 14:25:41.489 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/favicon.ico - 404 0 null 3.235ms
+2026-03-04 14:25:41.493 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5020/favicon.ico, Response status code: 404
+2026-03-04 14:25:47.051 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/TaskService/basic?wsdl - null null
+2026-03-04 14:25:47.072 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/TaskService/basic?wsdl - 200 null text/xml; charset=UTF-8 21.3203ms
+2026-03-04 14:25:51.383 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/TaskService/basic?singleWsdl - null null
+2026-03-04 14:25:51.479 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/TaskService/basic?singleWsdl - 200 null text/xml; charset=UTF-8 96.0236ms
+2026-03-04 14:26:05.785 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/ - null null
+2026-03-04 14:26:05.789 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/ - 404 0 null 4.1652ms
+2026-03-04 14:26:05.793 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5020/, Response status code: 404
+2026-03-04 14:26:17.919 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/TaskService/basic - null null
+2026-03-04 14:26:17.922 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/TaskService/basic - 200 null text/html; charset=UTF-8 3.5064ms
+2026-03-04 14:26:35.374 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5020/TaskService/basic - null null
+2026-03-04 14:26:35.377 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5020/TaskService/basic - 200 null text/html; charset=UTF-8 3.1258ms
